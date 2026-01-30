@@ -331,7 +331,7 @@ export default function ScrollytellingSection() {
           <div className="hidden lg:block relative">
             <div className="sticky top-[15vh] h-[70vh]">
               {/* Glass container for 3D */}
-              <div className="relative h-full w-full rounded-3xl overflow-hidden bg-white/5 backdrop-blur-lg border border-white/10">
+              <div className="relative h-full w-full rounded-3xl overflow-hidden bg-white/5 backdrop-blur-sm border border-white/10">
                 {/* Progress Bar */}
                 <div className="absolute top-0 left-0 right-0 h-1 bg-white/10 z-10">
                   <div
@@ -366,7 +366,7 @@ export default function ScrollytellingSection() {
 
       {/* Mobile 3D Canvas - Fixed at bottom */}
       <div className="lg:hidden fixed bottom-4 right-4 w-32 h-32 z-40">
-        <div className="relative h-full w-full rounded-2xl overflow-hidden bg-white/5 backdrop-blur-lg border border-white/10">
+        <div className="relative h-full w-full rounded-2xl overflow-hidden bg-white/5 backdrop-blur-sm border border-white/10">
           <Canvas camera={{ position: [0, 0, 4] }}>
             <Environment preset="city" />
             <ambientLight intensity={0.2} />

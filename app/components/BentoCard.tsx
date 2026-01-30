@@ -73,7 +73,7 @@ export default function BentoCard({
       className={`
         relative
         bg-white/[0.03]
-        backdrop-blur-xl
+        backdrop-blur-sm
         border border-white/[0.08]
         rounded-3xl
         overflow-hidden
